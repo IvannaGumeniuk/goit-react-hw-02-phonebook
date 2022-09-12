@@ -28,8 +28,7 @@ class App extends Component {
         contact.name.toLocaleLowerCase() === newContact.name.toLocaleLowerCase()
       )
     )
-  {
-    alert(newContact.name + ' is alredy in contacts');
+  { alert(newContact.name + ' is alredy in contacts');
       return true;
     }
       return false;
